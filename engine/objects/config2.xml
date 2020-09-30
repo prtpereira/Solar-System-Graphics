@@ -1,0 +1,24 @@
+<scene>
+		 <group>
+				<scale X=2 Y=2 Z=2 />
+				<translate X=1 Y=1 Z=1 />
+				 <models>
+						<model file="sphere.3d" />
+				 </models>
+				 <group>
+						<group>
+								<translate X=3 Y=0 Z=1 />
+								<models>
+										<model file = "box.3d" />
+								</models>
+						</group>
+				 </group>
+				 <translate X=0.5 Y=0.5 Z=1 />
+				 <group>
+							<translate X=0.6 Y=0.6 Z=1.6 />
+							<models>
+									<model file = "cone.3d" />
+							</models>
+					</group>
+		 </group>
+</scene> 

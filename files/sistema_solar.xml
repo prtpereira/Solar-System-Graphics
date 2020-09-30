@@ -1,0 +1,106 @@
+<scene>
+		 <group>
+					<translate X=0 Y=0 Z=0 />
+					
+				 <models>
+				 		Sol
+						<model file="sphere.3d"  texture="sun.jpg" />
+				 </models>
+				 
+				 <group>
+				 		Mercurio
+						<rotate time=504  axisX=0 axisY=1 axisZ=0 />
+						<translate X=1.5236 Y=0 Z=0 />
+						<scale X=0.02439 Y=0.024439 Z=0.02439/>
+						<models>
+								<model file = "sphere.3d "  texture="mercury.jpg"/>
+						</models>
+						
+				 </group>
+				 
+				 <group>
+				 		Venus
+						<rotate time=502  axisX=0 axisY=1 axisZ=0 />
+						<translate X=2.0472 Y=0 Z=0 />
+						<scale X=0.06051 Y=0.06051 Z=0.06051/>
+						<models>
+								<model file = "sphere.3d"  texture="venus.jpg"/>
+						</models>
+				 </group>
+
+				 <group>
+				 		Terra
+						<rotate time=506  axisX=0 axisY=1 axisZ=0 />
+						<translate X=2.49 Y=0 Z=0 />
+						<scale X=0.06372 Y=0.06372 Z=0.06372/>
+						<models>
+								<model file = "sphere.3d"  texture="earth.jpg"/>
+						</models>
+				 
+								Lua
+								<rotate time=450  axisX=0 axisY=1 axisZ=0 />
+								<translate X = 1.06872 Y=0 Z= 1.06872/>
+								<scale X=0.418 Y=0.418 Z=0.418/>
+								<models>
+										<model file = "sphere.3d" texture="moon.jpg"/>
+								</models>
+				 
+				 </group>
+				 
+				 
+				 <group>
+				 		Marte
+						<rotate time=510  axisX=0 axisY=1 axisZ=0 />
+						<translate X=3.3188 Y=0 Z=0 />
+						<scale X=0.03402 Y=0.03402 Z=0.03402/>
+						<models>
+								<model file = "sphere.3d" texture="mars.jpg"/>
+						</models>
+						
+				 </group>
+
+				 <group>
+				 		Jupiter
+						<rotate time=506  axisX=0 axisY=1 axisZ=0 />
+						<translate X=4.7 Y=0 Z=0 />
+						<scale X=0.68366 Y=0.68366 Z=0.68366/>
+						<models>
+								<model file = "sphere.3d" texture="jupiter.jpg"/>
+						</models>
+						
+				 </group>
+				 		 
+				 <group>
+				 		Saturno
+						<rotate time=508  axisX=0 axisY=1 axisZ=0 />
+						<translate X=6.62 Y=0 Z=0 />
+						<scale X=0.60268 Y=0.60268 Z=0.60268/>
+						<models>
+								<model file = "sphere.3d" texture="saturn.jpg"/>
+						</models>
+						
+				 </group>
+				 		 
+				 <group>
+				 		Urano
+						<rotate time=5016  axisX=0 axisY=1 axisZ=0 />
+						<translate X=9.66 Y=0 Z=0 />
+						<scale X=0.25559 Y=0.25559 Z=0.25559/>
+						<models>
+								<model file = "sphere.3d" texture="uranus.jpg"/>
+						</models>
+						
+				 </group>
+				 		 
+				 <group>
+				 		Neptuno
+						<rotate time=5014  axisX=0 axisY=1 axisZ=0 />
+						<translate X=12.85 Y=0 Z=0 />
+						<scale X=0.24622 Y=0.24622 Z=0.24622/>
+						<models>
+								<model file = "sphere.3d" texture="neptune.jpg"/>
+						</models>
+				 </group>
+				 
+		 </group>
+</scene> 
